@@ -115,6 +115,8 @@ ul li a {
   -webkit-backdrop-filter: blur(4px);
   font-weight: 500;
   transition: background 0.2s;
+  transition: border 0.2s ease;
+  border: 1px solid transparent;
 }
 
 ul li a:hover {
